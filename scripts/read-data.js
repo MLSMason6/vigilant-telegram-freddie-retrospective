@@ -8,13 +8,13 @@
 // });
 
 
-$("button").click(function() {
-    $.getJSON("https://mlsmason6.github.io/mlsmason6/data.json", function(result) {
-        $.each(result, function(i, field) {
-            $("div").append(field + " ");
-        });
+$("button").click(function(){
+    $.getJSON("https://barrycumbie.github.io/barrycumbie/data.json", function(result){
+      $.each(result, function(i, field){
+        $("div").append(field + " ");
+      });
     });
-});
+  });
 
 
 // $.getJSON( "https://barrycumbie.github.io/barrycumbie/data.js", function( data ) {
